@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Сирний круасан</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#ffffff;
+color:#8b6b55;
+text-align:center;
+}
+
+header{
+background:#8b6b55;
+color:white;
+padding:25px;
+font-size:28px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px;
+}
+
+img{
+width:420px;
+max-width:90%;
+margin:30px 0;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+button{
+padding:12px 30px;
+font-size:16px;
+background:#8b6b55;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+margin-top:20px;
+}
+
+button:hover{
+opacity:0.85;
+}
+
+.more{
+display:none;
+margin-top:30px;
+border:2px solid #8b6b55;
+padding:20px;
+border-radius:8px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+Сирний круасан
+</header>
+
+<div class="container">
+
+<img src="https://i.postimg.cc/QMtVw51S/Chat-GPT-Image-22-noab-2025-g-14-38-19.png" alt="Сирний круасан">
+
+<h2>З чого його роблять</h2>
+
+<p>
+Цей сирний круасан виготовляється з відбірної пшениці,
+яка виросла на зелених лугах біля Мукачева.
+Зерно перемелюється у м’яке борошно,
+з якого створюється ніжне листкове тісто.
+</p>
+
+<p>
+До тіста додається ароматний сир,
+який під час випікання плавиться
+і створює насичений вершковий смак.
+</p>
+
+<h2>Як його печуть</h2>
+
+<p>
+Круасани випікають на окраєні великого міста Мукачева
+у невеликій пекарні в селі Верхній Коропець.
+Тісто складають у десятки тонких шарів,
+щоб круасан був легким і хрустким.
+</p>
+
+<button onclick="toggleInfo()">Дізнатися більше</button>
+
+<div id="info" class="more">
+
+<h3>Додаткова інформація</h3>
+
+<p>
+Перед випіканням круасани залишають
+відпочивати кілька годин,
+щоб тісто стало ще більш повітряним.
+</p>
+
+<p>
+Після цього їх випікають у гарячій печі
+приблизно 20 хвилин,
+поки скоринка не стане золотистою
+та хрусткою.
+</p>
+
+<p>
+Саме тому сирний круасан має
+ніжну текстуру, аромат свіжої випічки
+та м’яку сирну начинку.
+</p>
+
+</div>
+
+</div>
+
+<script>
+
+function toggleInfo(){
+var x = document.getElementById("info");
+
+if(x.style.display === "block"){
+x.style.display = "none";
+}else{
+x.style.display = "block";
+}
+
+}
+
+</script>
+
+</body>
+</html>
